@@ -1,0 +1,40 @@
+body{}
+#titulo{
+	text-align: center;
+	background-color: #2BF4DC;
+	color: #000000;
+	font-family: Courier New;
+}
+#arriba{
+	width: 50%;
+	height: 3px;
+	background-color: #154179;
+}
+#menu-horizontal{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+#menu-lista{
+	list-style: none;
+	float: left;
+	padding: 5px 175px;
+}
+/*lista es como esta el menu normal sin que el puntero o mouse pase por arriba*/
+#lista{
+	color: #ffffff;
+	font-family: cursive;
+	background-color: #8CA1DC;
+	border-radius: 10px;
+
+}
+/*lista:hover es para que cambie cuando el mouse pasa por arriba*/
+#lista:hover{
+	color: #ffffff;
+	font-family: cursive;
+	background-color: #000000;
+	border-radius: 7px;
+}
+#todalapagina{
+	background-color: #2BF4DC;
+}
