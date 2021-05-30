@@ -1,0 +1,52 @@
+body{}
+#todalapagina{
+	background-color: #2BF4DC;
+	height: 625px;
+}
+/*es el primer titulo el h1*/
+#titulo{
+	background-color:#2BF4DC;;
+	color: #000000;
+	font-family: Courier New;
+	text-align: center;
+}
+/*pie de pagina es el h6 que esta abajo del todo*/
+#piedepagina{
+	background-color:#2BF4DC;;
+	color: #000000;
+	font-family: Courier New;
+	text-align: center;
+	top: +562px;
+	position: relative;
+}
+/*Con todo lo de abajo le cambio el fondo y el color del texto, le cambio el ancho y el alto y alineo al centro una lista*/
+#sobremi{
+	list-style: none;
+	background-color: #3CCBBA;
+	color: white;
+	width: 300px;
+	padding: 5px 300px;
+	height: 130px;
+	text-align: center;
+	border-radius: 12px;
+	text-align: center;
+	display: inline-block;
+}
+
+/*boton para volver a la pagina anterior*/
+#volver{
+	background-color: #3CCBBA;
+	color: white;
+	border-radius: 10px;
+	font-family: Courier New;
+	font-size: 18px;
+	position: relative;
+	top: +100px;
+}
+/*modifico todo el texto que esta en p con el id mihistoira*/
+#mihistoria{
+	background-color: #3CCBBA;
+	color: #000000;
+	font-family: Courier New;
+	font-size: 20px;
+}
